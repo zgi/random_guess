@@ -8,7 +8,7 @@ def main():
         secret = random.randint(0, 100)
         if secret == old_secret:
             secret = random.randint(1, 100)
-#           print "Skrivno število je enako kot prejšnje. Generiram novega...: %d" % secret
+#           print "Skrivno število je enako kot prejšnje. Generiram novega...: %s" % secret
 #       print "Skrivno število je: %s" % secret
         try:
             guess = int(raw_input("Vpiši številko: "))
